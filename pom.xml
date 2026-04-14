@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <!-- groupID must be the business group ID or ORGID -->
-    <groupId>a4fc67f2-a41b-406c-a675-0dfce1b8cdf6</groupId>
+    <groupId>49a8d4da-3a2f-44cb-be9c-84808764cacc</groupId>
     <artifactId>cicd-cloudhub2-java17</artifactId>
     <!-- This version is immutable, need to bump for every deployment-->
     <version>1.0.0</version>
@@ -43,7 +43,7 @@
                         <!-- mule version format muleruntime-java17 -->
                         <!-- If not provided, will choose the latest Edge version -->
                         <!--<releaseChannel>EDGE</releaseChannel>-->
-                        <muleVersion>4.10.1:12e-java17</muleVersion>
+                        <muleVersion>4.11.3:4e-java17</muleVersion>
                         <!-- Authentication to do the deployment -->
                         <!-- Connected Apps, clientid and secret for CI Server -->
                         <connectedAppClientId>${ca_client_id}</connectedAppClientId>
